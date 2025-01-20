@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 13, 19);
+}
+
+header {
+    color: tomato;
+    text-align: center;
+}
+
+main {
+    color: rgb(255, 164, 80);
+
+}
+
+section {
+    display: flexbox;
+}
+
+#Field {
+
+    background-color: green;
+    width: 40%;
+    aspect-ratio: 1/1;
+    transform: translatex(70%);
+    border: 20px;
+    border-color: rgb(138, 95, 31);
+    border-style: solid;
+
+
+}
+
+table th {
+    border: 2px solid gray;
+}
+
+table td {
+    border: 2px solid gray;
+}
+
+footer {
+    color: wheat;
+    position: static;
+    clear: both;
+}
+
+#email {
+    color: aqua;
+}
+
+#navbar {
+    background-color: gray
+}
+
+@media screen and (max-width:700px) {
+
+    /*selection,selection,selection{
+        property:decleration value
+    }*/
+    #Field {
+        width: 100%;
+        transform: translatex(0px);
+    }
+}
