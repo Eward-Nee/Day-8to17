@@ -1,0 +1,8 @@
+.btn {
+    border-radius: 10px;
+    width: 80px;
+    aspect-ratio: 4/2;
+    background-color: greenyellow;
+    box-shadow: 4px 4px 5px gray;
+    cursor: pointer;
+}
