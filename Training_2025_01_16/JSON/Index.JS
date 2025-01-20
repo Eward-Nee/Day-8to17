@@ -1,0 +1,1 @@
+fetch("people.JSON").then(file => file.json()).then(values => values.forEach(value => console.log(value))).catch(error => console.error(error))

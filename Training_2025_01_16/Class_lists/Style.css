@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 13, 19);
+}
+
+header {
+    color: tomato;
+}
+
+.enabled {
+    background-color: rgb(0, 255, 21);
+    color: rgb(19, 41, 49);
+}
+
+.disabled {
+    background-color: rgb(202, 255, 207);
+    color: rgb(19, 41, 49);
+}
+
+main {
+    color: rgb(255, 164, 80);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+#btnMine {
+    width: 40%;
+    aspect-ratio: 4/1;
+    border-radius: 10px;
+}
+
+footer {
+    color: wheat;
+    position: static;
+    clear: both;
+}
+
+#email {
+    color: aqua;
+}
+
+#navbar {
+    background-color: gray
+}
+
+@media screen and (max-width:700px) {
+    /*selection,selection,selection{
+        property:decleration value
+    }*/
+}
