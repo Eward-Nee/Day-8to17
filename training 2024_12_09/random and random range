@@ -1,0 +1,21 @@
+Random
+iNum = Math.random()
+
+Random range without decimal
+iNum = Math.floor(Math.random * 6)+1
+/* 1-6 */
+
+Random range without decimal
+iNum = Math.floor(Math.random * 6)
+/* 0-5 */
+
+Random range with decimal
+iNum = (Math.random * 6)+1
+/* 1-6.99 */
+
+format without desimals for random range
+let min = 50
+let max = 100
+let awns
+awns = Math.floor(Math.random() * (max - min + 1)) + min
+

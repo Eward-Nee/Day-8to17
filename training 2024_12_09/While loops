@@ -1,0 +1,11 @@
+while (str===`` || str===null){
+    str = window.prompt(`give str`) //You cant exit or continue without providing your str.
+}
+
+do while loop: runs code atleast once before contition is checked
+
+do{
+    code
+} while(condition)
+
+while(!condidion): when condition is false, run code.
