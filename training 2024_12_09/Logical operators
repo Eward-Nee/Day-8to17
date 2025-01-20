@@ -1,0 +1,14 @@
+&& = and
+|| = or
+! = not
+
+= (assignment)
+
+== equality (dont care abput datatypes) ex: "3.14159" == 3.14159 (true)
+=== Strict equality (datatypes metter)  ex: "3.14159" === 3.14159 (false)
+
+same consept between !== and !=
+
+bEhh = true
+bEhh = !bEhh
+bEhh = false (now)
