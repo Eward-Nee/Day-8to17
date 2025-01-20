@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My website</title>
+    <link rel="stylesheet" href="style.css">
+
+    <noscript>
+        <style>
+            .no-script-alert {
+                display: block;
+            }
+        </style>
+    </noscript>
+</head>
+
+<body>
+
+
+
+    <header>
+
+        <h1>This is my Website</h1>
+        <hr style="color: chartreuse;">
+
+    </header>
+
+    <nav id="navbar">
+
+    </nav>
+
+    <main>
+
+
+        <aside>
+
+        </aside>
+
+        <section>
+
+            <div id="form">
+                <h1>Temp convertion</h1>
+                <input type="number" value="0" id="sedValue" min="0" required>
+                <br>
+                <input type="radio" id="rgdtoFarenheight" name="unit">
+                <label for="rgdtoFarenheight">Degrees Celcuis ➡️ Farenheight</label>
+                <br>
+                <input type="radio" id="rgdtoCelcuis" name="unit">
+                <label for="rgdtoCelcuis">Degrees Farenheight ➡️ Celcuis</label>
+                <br><br>
+                <button id="btnSubmit" onclick="convert()">submit</button>
+                <br>
+                <label id="lblResult">This is result</label>
+            </div>
+
+        </section>
+
+        <article>
+
+        </article>
+
+
+    </main>
+
+    <footer>
+
+        <hr style="color: chartreuse;">
+
+        author: Eward
+        <br>
+        &copy; Copyright reserved
+        <br>
+        <a href="" id="email">link</a>
+
+    </footer>
+
+    <script src="Index.JS"></script>
+
+</body>
+
+</html>
