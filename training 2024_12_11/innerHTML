@@ -1,0 +1,9 @@
+     // get the element with the "someElement" id, and give it new content
+document.getElementById('someElement').innerHTML = "<p>new content</p>";
+
+     // retrieve the content from an element
+var content = document.getElementById('someElement').innerHTML;
+
+// parient:getelementbyid(parient), Child: .innerHTML = child
+
+alert( content );

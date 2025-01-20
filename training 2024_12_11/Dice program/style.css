@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(13, 13, 19);
+}
+
+header {
+    color: tomato;
+}
+
+main {
+    color: rgb(255, 164, 80);
+}
+
+footer {
+    color: wheat;
+    position: static;
+    clear: both;
+}
+
+#email {
+    color: aqua;
+}
+
+section {
+    text-align: center;
+}
+
+#imgDice {
+    width: 400px;
+    aspect-ratio: 1/1;
+    border: 2px solid rgb(196, 196, 196);
+    box-shadow: 4px 4px 10px rgb(94, 117, 124), -4px -4px 10px rgb(94, 117, 124);
+    border-radius: 10px;
+}
+
+#btnDiceRoll {
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: 5px solid rgb(110, 110, 226);
+}
+
+#btnDiceRoll:active {
+    background-color: rgb(93, 95, 95);
+    color: white;
+    border: 7px solid rgb(59, 59, 124);
+}
+
+#navbar {
+    background-color: gray
+}
+
+@media screen and (max-width:700px) {
+    /*selection,selection,selection{
+        property:decleration value
+    }*/
+}
